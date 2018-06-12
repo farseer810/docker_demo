@@ -1,4 +1,4 @@
-FROM    farseer810/ubuntu:python3
+FROM    python:3.6-jessie
 WORKDIR /app
 ADD . /app
 RUN pip install -r requirements.txt
